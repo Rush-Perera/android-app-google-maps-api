@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng latLng = new LatLng(6.9076795, 79.437533);
         map.addMarker(new MarkerOptions().position(latLng).title("Location"));
 
-//        map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+        map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
 
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,100));
+//        map.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,100));
     }
 }
